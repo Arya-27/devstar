@@ -1,4 +1,4 @@
-
+<!--Arya's part(Shadow Element and Delete element)-->
  <script>
   import { createEventDispatcher } from 'svelte';
  
@@ -90,3 +90,4 @@
     background-color: lightblue;
   }
 </style>
+<!--Arya's part(Shadow Element and Delete element)-->

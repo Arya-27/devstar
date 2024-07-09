@@ -1,5 +1,5 @@
 
-// Arya's Component- Shadow functionality and Delete Element
+<!--Arya's part(Shadow Element and Delete element)-->
 <script>
   import Delete from "./Delete.svelte";
 
@@ -170,4 +170,4 @@
   }
 </style>
 
- 
+ <!--Arya's part(Shadow Element and Delete element)-->
