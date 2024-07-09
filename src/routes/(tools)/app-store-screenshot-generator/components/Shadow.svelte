@@ -1,5 +1,5 @@
 
-/* Arya's Component- Shadow functionality and Delete Element */
+// Arya's Component- Shadow functionality and Delete Element
 <script>
   import Delete from "./Delete.svelte";
 

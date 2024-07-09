@@ -1,4 +1,4 @@
- // Arya's Component
+
  <script>
   import { createEventDispatcher } from 'svelte';
  
