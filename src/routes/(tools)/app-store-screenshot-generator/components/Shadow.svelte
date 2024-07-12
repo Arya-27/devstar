@@ -1,7 +1,6 @@
 
 <!--Arya's part(Shadow Element and Delete element)-->
 <script>
-  import Delete from "./Delete.svelte";
 
   let shadowColor = "#000000";
   let shadowOpacity = 1;
@@ -108,7 +107,6 @@
     </div>
     <div class="preview" style="--box-shadow: {boxShadow};"></div>
     <button class="mt-2 px-3 py-1 bg-black text-white rounded text-xs">Delete Element</button>
-    <Delete/>
   </div>
 </div>
 
