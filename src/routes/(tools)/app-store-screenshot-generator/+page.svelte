@@ -1,5 +1,7 @@
 <script>
-  import Shadow from "./components/Shadow.svelte";
+  import Shadow from "./Shadow.svelte";
+
+ 
   
   
 </script>
