@@ -1,7 +1,6 @@
 <!--Arya's part(Shadow Element and Delete element)-->
  <script>
   import { createEventDispatcher } from 'svelte';
- 
 
   const dispatch = createEventDispatcher();
   let showBackgroundCustomizer = false;
@@ -68,7 +67,7 @@
   </nav>
 
   {#if showBackgroundCustomizer}
-    <!-- svelte-ignore missing-declaration -->
+    
     <BackgroundCustomizer on:backgroundUpdate={handleBackgroundUpdate} />
   {/if}
 
@@ -77,7 +76,6 @@
   <ul>
     {#each devices as device}
       
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
       <li on:click={() => selectDevice(device)} class:selected={device === selectedDevice}>
         {device.name}
       </li>
